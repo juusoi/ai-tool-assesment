@@ -17,5 +17,6 @@
   "exclude": [
     "node_modules", // Exclude the node_modules directory
     "**/*.spec.ts" // Exclude test files
-  ]
+  ],
+  "files": ["playwright.config.ts"] // Specify the input files here
 }
