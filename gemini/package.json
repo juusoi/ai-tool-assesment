@@ -1,0 +1,14 @@
+{
+  "name": "playwright-vala-tests",
+  "version": "1.0.0",
+  "description": "Playwright end-to-end tests for valagroup.com",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "@types/node": "latest",
+    "typescript": "latest"
+  }
+}
