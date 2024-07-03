@@ -1,5 +1,5 @@
 # .github/workflows/playwright-tests.yml
-name: Playwright Tests
+name: Playwright Tests - Gemini
 on: [push]
 jobs:
   test:
@@ -16,6 +16,6 @@ jobs:
     - name: Install dependencies
       run: npm ci
     - name: Run Playwright tests
-      run: npx playwright test
+      run: npx playwright install --with deps && npx playwright test
       env:
         CI: true 
