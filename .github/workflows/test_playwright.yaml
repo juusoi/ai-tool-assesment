@@ -19,6 +19,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
+        working-directory: ./copilot
         run: npm ci
 
       - name: Run Playwright tests
