@@ -6,7 +6,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "test:ci": "npx playwright install --with-deps && npx playwright test"
   },
   "keywords": [],
   "author": "",
