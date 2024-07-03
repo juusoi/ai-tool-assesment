@@ -4,7 +4,8 @@
   "description": "Playwright end-to-end tests for valagroup.com",
   "scripts": {
     "test": "playwright test",
-    "test:headed": "playwright test --headed"
+    "test:headed": "playwright test --headed",
+    "test:ci": "npx playwright install --with-deps && npx playwright test"
   },
   "devDependencies": {
     "@playwright/test": "latest",
